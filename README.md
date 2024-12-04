@@ -64,18 +64,41 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 
 ## 📂 Code Structure <a name="structure"></a>
 
-| File/Folder                   | Description                                                                 |
-|-------------------------------|-----------------------------------------------------------------------------|
-| **RoadTripPlanner.sln**        | Solution file for the Visual Studio project.                              |
-| **App.xaml**                   | Defines application-level resources and configuration.                   |
-| **App.xaml.cs**                | Contains startup logic for the application.                              |
-| **MainWindow.xaml**            | UI design for the main window.                                            |
-| **MainWindow.xaml.cs**         | Handles UI logic and API integrations.                                   |
-| **Models/TripDetails.cs**      | Model class for storing trip-related details.                            |
-| **Services/GoogleMapsService.cs** | Manages Google Maps API integration for distance calculation.          |
-| **Utils/StopSuggestions.cs**   | Provides dynamic stop suggestions based on distance.                     |
-| **Resources/**                 | Contains static assets like icons or images.                             |
-| **screenshots/**               | Contains screenshots for documentation.                                  |
+## 📂 Code Structure <a name="structure"></a>
+
+### Root Directory
+| File/Folder               | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| **bin/**                  | Contains compiled binary files and application executable.                 |
+| **obj/**                  | Temporary object files generated during the build process.                 |
+| **Properties/**           | Project-level settings like assembly info and resources.                   |
+| **App.xaml**              | Defines application-level resources and configuration for WPF.             |
+| **App.xaml.cs**           | Contains startup logic for the application.                                |
+| **MainWindow.xaml**       | XAML file for designing the main application window.                       |
+| **MainWindow.xaml.cs**    | Code-behind file containing UI logic and event handling.                   |
+| **packages.config**       | Lists NuGet packages installed in the project.                             |
+| **RoadTripPlanner.csproj**| Project file containing build and configuration settings.                  |
+
+---
+
+### `bin/Debug/` Directory
+| File                      | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| **RoadTripPlanner.exe**   | The compiled executable file for the Road Trip Planner application.         |
+| **RoadTripPlanner.pdb**   | Debugging symbols for the application.                                      |
+| **Newtonsoft.Json.dll**   | Newtonsoft.Json library for JSON handling.                                  |
+| **RoadTripPlanner.exe.config** | Configuration file for the application executable.                      |
+
+---
+
+### `Properties/` Directory
+| File                      | Description                                                                 |
+|---------------------------|-----------------------------------------------------------------------------|
+| **AssemblyInfo.cs**       | Metadata about the assembly such as version and description.               |
+| **Resources.Designer.cs** | Auto-generated designer file for resources.                                |
+| **Resources.resx**        | Resource file for managing project resources.                              |
+| **Settings.Designer.cs**  | Auto-generated designer file for application settings.                     |
+| **Settings.settings**     | Configuration file for project settings.                                   |
 
 
 ## 🗂️ Commit History <a name="commit-history"></a>
