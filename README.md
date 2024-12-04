@@ -55,9 +55,9 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 
 1. Launch the application.
 2. Enter the following trip details:
-Starting Point: Your trip's starting location.
-Destination: Your trip's destination.
-Mileage (km/L): Your vehicle's fuel efficiency.
-Fuel Price ($/L): The current fuel price per liter.
+- Starting Point: Your trip's starting location.
+- Destination: Your trip's destination.
+- Mileage (km/L): Your vehicle's fuel efficiency.
+- Fuel Price ($/L): The current fuel price per liter.
 3. Click Calculate: The app displays the estimated trip cost and personalized stops.
 4. Click Open Google Maps to view the route in your browser.
