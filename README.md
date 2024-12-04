@@ -1,40 +1,52 @@
 # 🚗 Road Trip Planner
 
-**Road Trip Planner** is a WPF desktop application designed to simplify trip planning by calculating the estimated cost of travel and providing tailored stop suggestions. Using the **Google Maps Distance Matrix API**, it fetches real-world distances between your chosen locations and offers dynamic stops inspired by Rishabh's personalized branding.
+**Road Trip Planner** is a WPF desktop application designed to simplify road trip planning. It calculates trip costs, fetches real-world distances using the Google Maps Distance Matrix API, and provides personalized stop suggestions such as **"Rishabh's Diner"** for an enjoyable journey.
+
+Developed by **Rishabh Karnani**.
 
 ---
 
-## 🌟 Key Features
-- **Real Distance Calculation**: Fetches accurate distances between your starting point and destination using the Google Maps API.
-- **Trip Cost Estimation**: Calculates the total fuel cost based on your vehicle's mileage and current fuel price.
-- **Dynamic Stops Suggestions**: Personalized stops such as "Rishabh's Diner" and "Rishabh's Rest Plaza" are shown based on trip distance.
-- **Google Maps Integration**: Opens the route in Google Maps for easy navigation.
-- **User-Friendly Interface**: A clean, modern UI with clear inputs, action buttons, and output display.
+## 📒 Table of Contents
+
+- [Project Overview](#overview)
+- [Setup Instructions](#setup)
+- [How to Use](#usage)
+- [Code Structure](#structure)
+- [Key Methods](#methods)
+- [Screenshots](#screenshots)
+- [Dependencies](#dependencies)
+- [License](#license)
+- [Next Steps](#next)
 
 ---
 
-## 🛠️ Setup Instructions
+## ✏️ Project Overview <a class="anchor" id="overview"></a>
+
+Road Trip Planner is a user-friendly application for calculating travel costs and planning trips. It uses the **Google Maps API** to fetch real-time distances and provides dynamic stop suggestions based on the journey's length. Designed with a modern UI, it offers a seamless experience for users.
+
+---
+
+## 🛠️ Setup Instructions <a class="anchor" id="setup"></a>
 
 ### Prerequisites
+
 1. **Visual Studio**:
-   - Download and install [Visual Studio](https://visualstudio.microsoft.com/) with the following workloads:
-     - **.NET Desktop Development**
-2. **NuGet Package**:
-   - Install the `Newtonsoft.Json` package:
+   - Install [Visual Studio](https://visualstudio.microsoft.com/) with the `.NET Desktop Development` workload.
+2. **Newtonsoft.Json**:
+   - Install this library for JSON handling:
      - Go to `Tools > NuGet Package Manager > Manage NuGet Packages for Solution`.
-     - Search for **Newtonsoft.Json** and install it for your project.
-
+     - Search for **Newtonsoft.Json** and click **Install**.
 3. **Google Maps API Key**:
-   - Obtain a **Google Maps API Key**:
-     - Visit [Google Cloud Console](https://console.cloud.google.com/).
-     - Enable the **Distance Matrix API**.
-     - Generate an API Key and add it to the `GetDistanceAsync` method in the code.
+   - Visit [Google Cloud Console](https://console.cloud.google.com/).
+   - Enable the **Distance Matrix API**.
+   - Generate an API key and replace `YOUR_API_KEY` in the code.
 
----
+### Steps to Run
 
-## 🚀 How to Run
-
-### Steps to Run Locally
-1. **Clone the Repository**:
+1. Clone the repository:
    ```bash
    git clone <repository-link>
+2. Open the project in Visual Studio:
+3. Load the RoadTripPlanner.sln file.
+4. Replace YOUR_API_KEY in the GoogleMapsService.cs file with your Google Maps API Key.
+5. Build and run the project.
