@@ -12,7 +12,7 @@ Developed by **Rishabh Karnani**.
 - [Setup Instructions](#setup)
 - [How to Use](#usage)
 - [Code Structure](#structure)
-- [Commit History](#history)
+- [Commit History](#commit-history)
 - [Key Methods](#key-methods)
 - [Screenshots](#screenshots)
 - [Dependencies](#dependencies)
