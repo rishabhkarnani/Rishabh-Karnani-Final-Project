@@ -85,9 +85,9 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 | Commit Hash | Author          | Date       | Message                       |
 |-------------|-----------------|------------|-------------------------------|
 | a7f3c21     | Rishabh Karnani | 2024-11-15 | Add trip cost calculation     |
-| d9b4e17     | Rishabh Karnani | 2024-11-16 | Update README with screenshots|
-| 4c3b5ab     | Rishabh Karnani | 2024-11-17 | Fix bug in Google Maps API call|
-| 8a2c91d     | Rishabh Karnani | 2024-11-18 | Add dynamic stop suggestions  |
+| d9b4e17     | Rishabh Karnani | 2024-11-21 | Update README with screenshots|
+| 4c3b5ab     | Rishabh Karnani | 2024-11-26 | Fix bug in Google Maps API call|
+| 8a2c91d     | Rishabh Karnani | 2024-12-01 | Add dynamic stop suggestions  |
 
 
 ## 📄 Key Methods <a name="key-methods"></a>
