@@ -61,3 +61,78 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 - Fuel Price ($/L): The current fuel price per liter.
 3. Click Calculate: The app displays the estimated trip cost and personalized stops.
 4. Click Open Google Maps to view the route in your browser.
+
+## 📂 Code Structure <a name="structure"></a>
+
+| File/Folder                   | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| **RoadTripPlanner.sln**        | Solution file for the Visual Studio project.                              |
+| **App.xaml**                   | Defines application-level resources and configuration.                   |
+| **App.xaml.cs**                | Contains startup logic for the application.                              |
+| **MainWindow.xaml**            | UI design for the main window.                                            |
+| **MainWindow.xaml.cs**         | Handles UI logic and API integrations.                                   |
+| **Models/TripDetails.cs**      | Model class for storing trip-related details.                            |
+| **Services/GoogleMapsService.cs** | Manages Google Maps API integration for distance calculation.          |
+| **Utils/StopSuggestions.cs**   | Provides dynamic stop suggestions based on distance.                     |
+| **Resources/**                 | Contains static assets like icons or images.                             |
+| **screenshots/**               | Contains screenshots for documentation.                                  |
+
+
+## 📄 Key Methods <a name="key-methods"></a>
+
+### `GetDistanceAsync()`
+
+- **Purpose**: Fetches accurate distances between locations using the Google Maps Distance Matrix API.
+- **Details**:
+  - Accepts starting and destination locations as inputs.
+  - Returns the distance in kilometers.
+
+### `GetSuggestedStops()`
+
+- **Purpose**: Recommends stops dynamically based on the trip distance.
+- **Details**:
+  - Personalized stops like **"Rishabh's Rest Plaza"** are displayed for user convenience.
+
+## 🖼️ Screenshots <a name="screenshots"></a>
+
+### Main Interface
+![Main UI](screenshots/ui_main.png)
+
+### Trip Calculation Results
+![Trip Results](screenshots/trip_results.png)
+
+
+## 🔧 Dependencies <a name="dependencies"></a>
+
+- **.NET Framework**: Comes pre-installed with Visual Studio.
+- **Newtonsoft.Json**: Library for handling JSON responses.
+- **Google Maps API Key**: For fetching real-world distances.
+
+
+## 📜 License <a name="license"></a>
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+You are free to use, modify, and distribute this application as per the license terms.
+
+
+## 🔮 Next Steps <a name="next-steps"></a>
+
+Here are potential improvements and features that can be added in the future:
+
+- Add a feature to save trip history for future reference.
+- Integrate live traffic data for more accurate trip planning.
+- Enable weather updates along the trip route.
+- Include real-time fuel price updates based on the user's location.
+- Support multiple destination routes for complex trip planning.
+
+
+## 👥 Contributors <a name="contributors"></a>
+
+- **Rishabh Karnani** - Developer and Designer of the Road Trip Planner Application.
+
+
+
+
+
+
