@@ -62,8 +62,7 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 3. Click Calculate: The app displays the estimated trip cost and personalized stops.
 4. Click Open Google Maps to view the route in your browser.
 
-## 📂 Code Structure <a name="structure"></a>
-
+  
 ## 📂 Code Structure <a name="structure"></a>
 
 ### Root Directory
