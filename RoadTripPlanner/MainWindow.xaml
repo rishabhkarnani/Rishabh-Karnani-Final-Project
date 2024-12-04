@@ -1,0 +1,72 @@
+﻿<Window x:Class="RoadTripPlanner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Road Trip Planner" Height="550" Width="700"
+        Background="#F3F4F6" FontFamily="Segoe UI">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Header -->
+            <RowDefinition Height="Auto"/>
+            <!-- Starting Point -->
+            <RowDefinition Height="Auto"/>
+            <!-- Destination -->
+            <RowDefinition Height="Auto"/>
+            <!-- Mileage -->
+            <RowDefinition Height="Auto"/>
+            <!-- Fuel Price -->
+            <RowDefinition Height="Auto"/>
+            <!-- Calculate Button -->
+            <RowDefinition Height="Auto"/>
+            <!-- Open Google Maps Button -->
+            <RowDefinition Height="Auto"/>
+            <!-- Estimated Cost -->
+            <RowDefinition Height="*"/>
+            <!-- Suggested Stops -->
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Header -->
+        <TextBlock Text="Road Trip Planner" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
+                   FontSize="28" FontWeight="Bold" Foreground="#2C3E50" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+        <!-- Starting Point -->
+        <TextBlock Text="Starting Point:" Grid.Row="1" Grid.Column="0" Margin="5" VerticalAlignment="Center" Foreground="#34495E"/>
+        <TextBox x:Name="StartPointTextBox" Grid.Row="1" Grid.Column="1" Margin="5" Height="30" Background="#ECF0F1" BorderBrush="#BDC3C7" BorderThickness="1"/>
+
+        <!-- Destination -->
+        <TextBlock Text="Destination:" Grid.Row="2" Grid.Column="0" Margin="5" VerticalAlignment="Center" Foreground="#34495E"/>
+        <TextBox x:Name="DestinationTextBox" Grid.Row="2" Grid.Column="1" Margin="5" Height="30" Background="#ECF0F1" BorderBrush="#BDC3C7" BorderThickness="1"/>
+
+        <!-- Mileage -->
+        <TextBlock Text="Mileage (km/L):" Grid.Row="3" Grid.Column="0" Margin="5" VerticalAlignment="Center" Foreground="#34495E"/>
+        <TextBox x:Name="MileageTextBox" Grid.Row="3" Grid.Column="1" Margin="5" Height="30" Background="#ECF0F1" BorderBrush="#BDC3C7" BorderThickness="1"/>
+
+        <!-- Fuel Price -->
+        <TextBlock Text="Fuel Price ($/L):" Grid.Row="4" Grid.Column="0" Margin="5" VerticalAlignment="Center" Foreground="#34495E"/>
+        <TextBox x:Name="FuelPriceTextBox" Grid.Row="4" Grid.Column="1" Margin="5" Height="30" Background="#ECF0F1" BorderBrush="#BDC3C7" BorderThickness="1"/>
+
+        <!-- Calculate Button -->
+        <Button Content="Calculate" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Height="40" 
+                Background="#27AE60" Foreground="White" BorderBrush="#1E8449" FontSize="16" FontWeight="Bold" 
+                BorderThickness="1" Click="CalculateButton_Click"/>
+
+        <!-- Open Google Maps Button -->
+        <Button Content="Open Google Maps" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Height="40" 
+                Background="#2980B9" Foreground="White" BorderBrush="#2471A3" FontSize="16" FontWeight="Bold" 
+                BorderThickness="1" Click="OpenGoogleMapsButton_Click"/>
+
+        <!-- Estimated Cost Section -->
+        <StackPanel Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Margin="5">
+            <TextBlock Text="Estimated Cost:" Margin="0,5,0,0" VerticalAlignment="Center" Foreground="#34495E" FontWeight="Bold"/>
+            <TextBlock x:Name="CostTextBlock" Margin="0,5,0,0" VerticalAlignment="Center" Foreground="#2C3E50" FontSize="16" FontWeight="Bold"/>
+        </StackPanel>
+
+        <!-- Suggested Stops -->
+        <TextBlock Text="Suggested Stops:" Grid.Row="8" Grid.Column="0" Margin="5" VerticalAlignment="Top" Foreground="#34495E" FontWeight="Bold"/>
+        <ListBox x:Name="StopsListBox" Grid.Row="8" Grid.Column="1" Margin="5" Background="#ECF0F1" BorderBrush="#BDC3C7" BorderThickness="1"/>
+    </Grid>
+</Window>
