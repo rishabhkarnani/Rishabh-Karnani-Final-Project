@@ -1,35 +1,40 @@
 # 🚗 Road Trip Planner
 
-**Road Trip Planner** is a desktop application built with WPF (Windows Presentation Foundation) to help users plan their road trips effectively. It calculates the estimated travel cost, fetches real-world distances using the Google Maps API, and suggests personalized stops like **"Rishabh's Diner"** for a delightful journey.
+**Road Trip Planner** is a WPF desktop application designed to simplify trip planning by calculating the estimated cost of travel and providing tailored stop suggestions. Using the **Google Maps Distance Matrix API**, it fetches real-world distances between your chosen locations and offers dynamic stops inspired by Rishabh's personalized branding.
 
 ---
 
 ## 🌟 Key Features
-
-- **Real Distance Calculation**: Fetches exact distances between locations using Google Maps API.
-- **Trip Cost Estimation**: Calculates total fuel costs based on mileage and fuel price.
-- **Personalized Stop Suggestions**: Offers dynamic stops with custom branding like "Rishabh's View Point."
-- **Google Maps Integration**: Opens the trip route directly in Google Maps.
-- **User-Friendly Interface**: Modern design with clear inputs and outputs.
+- **Real Distance Calculation**: Fetches accurate distances between your starting point and destination using the Google Maps API.
+- **Trip Cost Estimation**: Calculates the total fuel cost based on your vehicle's mileage and current fuel price.
+- **Dynamic Stops Suggestions**: Personalized stops such as "Rishabh's Diner" and "Rishabh's Rest Plaza" are shown based on trip distance.
+- **Google Maps Integration**: Opens the route in Google Maps for easy navigation.
+- **User-Friendly Interface**: A clean, modern UI with clear inputs, action buttons, and output display.
 
 ---
 
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
-1. **Visual Studio**: Install [Visual Studio](https://visualstudio.microsoft.com/) with the `.NET Desktop Development` workload.
-2. **Newtonsoft.Json**: Install this package to handle JSON responses.
-   - In Visual Studio, go to `Tools > NuGet Package Manager > Manage NuGet Packages for Solution`.
-   - Search for **Newtonsoft.Json** and install it.
+1. **Visual Studio**:
+   - Download and install [Visual Studio](https://visualstudio.microsoft.com/) with the following workloads:
+     - **.NET Desktop Development**
+2. **NuGet Package**:
+   - Install the `Newtonsoft.Json` package:
+     - Go to `Tools > NuGet Package Manager > Manage NuGet Packages for Solution`.
+     - Search for **Newtonsoft.Json** and install it for your project.
+
 3. **Google Maps API Key**:
-   - Go to [Google Cloud Console](https://console.cloud.google.com/).
-   - Enable the **Distance Matrix API**.
-   - Create an API key and add it to the `GetDistanceAsync()` method in the code.
+   - Obtain a **Google Maps API Key**:
+     - Visit [Google Cloud Console](https://console.cloud.google.com/).
+     - Enable the **Distance Matrix API**.
+     - Generate an API Key and add it to the `GetDistanceAsync` method in the code.
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+### Steps to Run Locally
+1. **Clone the Repository**:
    ```bash
    git clone <repository-link>
