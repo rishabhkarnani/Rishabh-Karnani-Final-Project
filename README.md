@@ -12,7 +12,7 @@ Developed by **Rishabh Karnani**.
 - [Setup Instructions](#setup)
 - [How to Use](#usage)
 - [Code Structure](#structure)
-- [Key Methods](#methods)
+- [Key Methods](#key-methods)
 - [Screenshots](#screenshots)
 - [Dependencies](#dependencies)
 - [License](#license)
@@ -92,6 +92,7 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 - **Purpose**: Recommends stops dynamically based on the trip distance.
 - **Details**:
   - Includes personalized stop names like **"Rishabh's View Point"**.
+
 
 ## 🖼️ Screenshots <a name="screenshots"></a>
 
