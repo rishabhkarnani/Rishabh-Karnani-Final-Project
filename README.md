@@ -130,10 +130,10 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 ## 🖼️ Screenshots <a name="screenshots"></a>
 
 ### Main Interface
-![Main UI](screenshots/ui_main.png)
+![Main Interface](screenshots/main_interface.jpg)
 
 ### Trip Calculation Results
-![Trip Results](screenshots/trip_results.png)
+![Trip Calculation Results](screenshots/trip_calculation_results.jpg)
 
 
 ## 🔧 Dependencies <a name="dependencies"></a>
