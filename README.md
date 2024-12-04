@@ -17,7 +17,6 @@ Developed by **Rishabh Karnani**.
 - [Screenshots](#screenshots)
 - [Dependencies](#dependencies)
 - [License](#license)
-- [Next Steps](#next)
 
 ---
 
@@ -127,17 +126,6 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 You are free to use, modify, and distribute this application as per the license terms.
-
-
-## 🔮 Next Steps <a name="next-steps"></a>
-
-Here are potential improvements and features that can be added in the future:
-
-- Add a feature to save trip history for future reference.
-- Integrate live traffic data for more accurate trip planning.
-- Enable weather updates along the trip route.
-- Include real-time fuel price updates based on the user's location.
-- Support multiple destination routes for complex trip planning.
 
 
 ## 👥 Contributors <a name="contributors"></a>
