@@ -79,7 +79,8 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 | **screenshots/**               | Contains screenshots for documentation.                                  |
 
 
-## 🗂️ Commit History
+## 🗂️ Commit History <a name="commit-history"></a>
+
 
 | Commit Hash | Author          | Date       | Message                       |
 |-------------|-----------------|------------|-------------------------------|
