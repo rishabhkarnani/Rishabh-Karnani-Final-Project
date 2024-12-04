@@ -84,14 +84,14 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 
 - **Purpose**: Fetches accurate distances between locations using the Google Maps Distance Matrix API.
 - **Details**:
-  - Accepts starting and destination locations as inputs.
+  - Accepts starting and destination locations as input.
   - Returns the distance in kilometers.
 
 ### `GetSuggestedStops()`
 
 - **Purpose**: Recommends stops dynamically based on the trip distance.
 - **Details**:
-  - Personalized stops like **"Rishabh's Rest Plaza"** are displayed for user convenience.
+  - Includes personalized stop names like **"Rishabh's View Point"**.
 
 ## 🖼️ Screenshots <a name="screenshots"></a>
 
