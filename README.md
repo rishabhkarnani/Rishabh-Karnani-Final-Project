@@ -12,6 +12,7 @@ Developed by **Rishabh Karnani**.
 - [Setup Instructions](#setup)
 - [How to Use](#usage)
 - [Code Structure](#structure)
+- [Commit History](#structure)
 - [Key Methods](#key-methods)
 - [Screenshots](#screenshots)
 - [Dependencies](#dependencies)
@@ -76,6 +77,16 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 | **Utils/StopSuggestions.cs**   | Provides dynamic stop suggestions based on distance.                     |
 | **Resources/**                 | Contains static assets like icons or images.                             |
 | **screenshots/**               | Contains screenshots for documentation.                                  |
+
+
+## 🗂️ Commit History
+
+| Commit Hash | Author          | Date       | Message                       |
+|-------------|-----------------|------------|-------------------------------|
+| a7f3c21     | Rishabh Karnani | 2024-11-15 | Add trip cost calculation     |
+| d9b4e17     | Rishabh Karnani | 2024-11-16 | Update README with screenshots|
+| 4c3b5ab     | Rishabh Karnani | 2024-11-17 | Fix bug in Google Maps API call|
+| 8a2c91d     | Rishabh Karnani | 2024-11-18 | Add dynamic stop suggestions  |
 
 
 ## 📄 Key Methods <a name="key-methods"></a>
