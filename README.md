@@ -45,7 +45,7 @@ Road Trip Planner is a user-friendly application for calculating travel costs an
 
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
+   git clone <[repository-link](https://github.com/rishabhkarnani/Rishabh-Karnani-Final-Project.git)> 
 2. Open the project in Visual Studio:
 3. Load the RoadTripPlanner.sln file.
 4. Replace YOUR_API_KEY in the GoogleMapsService.cs file with your Google Maps API Key.
